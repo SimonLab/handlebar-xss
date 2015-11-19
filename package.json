@@ -1,0 +1,33 @@
+{
+  "name": "handlebar-xss",
+  "version": "1.0.0",
+  "description": "{{{}}} vs {{}}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/handlebar-xss.git"
+  },
+  "keywords": [
+    "hapi",
+    "hapi.js",
+    "handlebars",
+    "xss"
+  ],
+  "author": "SimonLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/handlebar-xss/issues"
+  },
+  "homepage": "https://github.com/SimonLab/handlebar-xss#readme",
+  "dependencies": {
+    "env2": "^2.0.4",
+    "handlebars": "^4.0.4",
+    "hapi": "^11.1.1",
+    "hoek": "^3.0.4",
+    "vision": "^4.0.1"
+  }
+}

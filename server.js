@@ -15,7 +15,8 @@ exports.init = function (port, next) {
       relativeTo: __dirname + '/views/',
       path: '.',
       layout: 'default',
-      layoutPath: 'layout'
+      layoutPath: 'layout',
+      helpersPath: 'helpers'
     });
     server.start(function (err) {
 
